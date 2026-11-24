@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="uk">
+    <head>
+        <meta charset="UTF-8">
+        <title>Реєстрація користувача</title>
+        <style>
+            * {
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+                font-family: Arial, sans-serif;
+            }
+            body {
+                display: flex;
+                flex-direction: column;
+                min-height: 100vh;
+                background-color: #ffffff;
+            }
+            header {
+                background-color: #3498f3;
+                border-bottom: 3px solid #e74c3c;
+                padding: 12px 25px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            .logo-block h1 {
+                font-size: 24px;
+                color: #000000;
+                font-weight: bold;
+            }
+            .logo-block p {
+                color: #ffffff;
+                font-size: 13px;
+                font-weight: bold;
+                margin-left: 35px;
+                margin-top: 2px;
+            }
+            nav a {
+                color: #000000;
+                text-decoration: none;
+                margin-left: 18px;
+                font-size: 15px;
+            }
+            nav a:hover {
+                text-decoration: underline;
+            }
+            main {
+                flex: 1;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 25px 15px;
+            }
+            .register-card {
+                width: 340px;
+                border: 1px solid #999999;
+                background-color: #ffffff;
+            }
+            .register-header {
+                background-color: #3498f3;
+                color: #ffffff;
+                text-align: center;
+                padding: 12px;
+                font-size: 17px;
+                font-weight: bold;
+            }
+            .register-form {
+                padding: 15px 18px 20px;
+                display: flex;
+                flex-direction: column;
+            }
+            .form-group {
+                margin-bottom: 12px;
+                display: flex;
+                flex-direction: column;
+            }
+            .form-group label {
+                font-size: 11px;
+                color: #333333;
+                margin-bottom: 4px;
+            }
+            .form-group input,
+            .form-group select {
+                width: 100%;
+                height: 28px;
+                padding: 4px 8px;
+                border: 1px solid #cccccc;
+                border-radius: 3px;
+                font-size: 13px;
+            }
+            .btn-submit {
+                align-self: flex-end;
+                margin-top: 6px;
+                padding: 6px 14px;
+                background-color: #efefef;
+                border: 1px solid #888888;
+                border-radius: 3px;
+                font-size: 14px;
+                cursor: pointer;
+            }
+            .btn-submit:hover {
+                background-color: #e2e2e2;
+            }
+            footer {
+                background-color: #2c3539;
+                color: #ffffff;
+                text-align: center;
+                padding: 22px 10px;
+                font-size: 12px;
+                line-height: 1.5;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="logo-block">
+                <h1>Мій особистий блог</h1>
+                <p>Дарина Губарева</p>
+            </div>
+            <nav>
+                <a href="#">Вхід</a>
+                <a href="register.html">Реєстрація</a>
+            </nav>
+        </header>
+
+        <main>
+            <div class="register-card">
+                <div class="register-header">Реєстрація користувача</div>
+                <form class="register-form" action="#" method="post">
+                    
+                </form>
+            </div>
+        </main>
+
+        <footer>
+            <p>© Всі права захищені.</p>
+            <p>Розробник: студентка 303-ТН навчальної групи Губарева Д.</p>
+        </footer>
+    </body>
+</html>
